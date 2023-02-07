@@ -1,5 +1,12 @@
+import { Button } from 'ui'
+
 export const Page = () => {
-  return <>Guilherme</>
+  return (
+    <>
+      Guilherme
+      <Button />
+    </>
+  )
 }
 
 export default Page
