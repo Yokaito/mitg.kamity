@@ -7,11 +7,11 @@ export const GlobalStyle = createGlobalStyle`
   *,
   body,
   html {
-    font-family: ui-monospace, Menlo,Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono",  "Courier New", monospace;
-    font-size: 14.40px;
+    font-family: ${theme.fonts.family.primary};
+    font-size: ${theme.fonts.ratio.mobile};
 
-    @media (min-width: ${theme.breakpoints.desktop}px) {
-      font-size: 16px;
+    @media (min-width: ${theme.breakpoints.tablet}px) {
+      font-size: ${theme.fonts.ratio.desktop};
     }
   }
 
