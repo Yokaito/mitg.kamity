@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://kamity.mitg.dev/sitemap/sitemap-index.xml
+Host: https://kamity.mitg.dev
