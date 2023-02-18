@@ -1,6 +1,7 @@
 {
   "name": "mitg.kamity",
   "version": "0.0.0",
+  "description": "all my project",
   "private": true,
   "workspaces": [
     "apps/*",
