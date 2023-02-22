@@ -5,7 +5,10 @@
   "license": "MIT",
   "scripts": {
     "lint": "yarn lint-staged",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests",
+    "test:watch": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
@@ -20,6 +23,7 @@
   },
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
+      "npm run test:staged",
       "eslint --fix"
     ]
   }
