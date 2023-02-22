@@ -4,8 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^18.14.0",
+    "@types/node": "^18.11.19",
+    "tsconfig": "*",
     "typescript": "^4.9.5",
-    "tsconfig": "*"
+    "eslint": "8.33.0",
+    "eslint-config-custom": "*"
   }
 }

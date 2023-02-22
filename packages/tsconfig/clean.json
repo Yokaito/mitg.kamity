@@ -1,4 +1,6 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Clean React",
   "compilerOptions": {
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -6,15 +8,9 @@
     "module": "esnext",
     "moduleResolution": "node",
     "jsx": "react",
-    "rootDirs": ["src", "tests"],
+    "rootDirs": ["src"],
     "baseUrl": "src",
-    "paths": {
-      "@/*": ["*"],
-      "@/tests/*": ["../tests/*"]
-    },
     "allowJs": true,
     "resolveJsonModule": true
-  },
-  "include": ["src", "tests"],
-  "exclude": ["tests/e2e/cypress"]
+  }
 }
