@@ -3,8 +3,8 @@ import { Header, Main, Tags } from '@/components/common'
 import { Jost } from 'next/font/google'
 
 export const metadata = {
-  title: 'Kamity | MITG',
-  description: 'Portfolio de Kamity',
+  title: 'Kamity | Portfólio',
+  description: 'Portfólio de Kamity',
 }
 
 const font = Jost({
