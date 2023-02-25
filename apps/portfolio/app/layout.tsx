@@ -1,5 +1,5 @@
 import '@/styles/global.css'
-import { Tags } from '@/components/common'
+import { Header, Main, Tags } from '@/components/common'
 import { Jost } from 'next/font/google'
 
 export const metadata = {
@@ -20,7 +20,12 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="[color-scheme:dark]">
       <Tags />
-      <body className={`${font.variable}`}>{children}</body>
+      <body
+        className={`${font.variable} ${font.className} overflow-hidden w-full h-full relative`}
+      >
+        <Header />
+        <Main>{children}</Main>
+      </body>
     </html>
   )
 }

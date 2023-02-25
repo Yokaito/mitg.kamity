@@ -1,3 +1,3 @@
 export default function Home() {
-  return <main className="text-3xl">Guilherme Fontes Amorim de Araujo</main>
+  return <span>Guilherme Fontes Amorim de Araújo</span>
 }
