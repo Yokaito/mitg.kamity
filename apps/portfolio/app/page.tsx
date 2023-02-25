@@ -1,3 +1,3 @@
 export default function Home() {
-  return <main className="bg-slate-300 text-3xl">first</main>
+  return <main className="text-3xl">Guilherme Fontes Amorim de Araujo</main>
 }

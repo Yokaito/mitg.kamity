@@ -1,3 +1,5 @@
-export async function GET(request: Request) {
+export const GET = () => {
   return new Response('Hello, Next.js!')
 }
+
+export default GET
