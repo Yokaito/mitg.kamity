@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="pt-BR" className="[color-scheme:dark]">
       <Tags />
       <body
-        className={`${font.variable} ${font.className} overflow-hidden w-full h-full relative`}
+        className={`${font.variable} ${font.className} w-full h-full relative`}
       >
         <Header />
         <Main>{children}</Main>
