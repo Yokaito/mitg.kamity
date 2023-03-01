@@ -1,6 +1,7 @@
 import '@/styles/global.css'
 import { Header, Main, Tags } from '@/components/common'
 import { Jost } from 'next/font/google'
+import { MenuOverlay } from '@/components/ui/MenuOverlay'
 
 export const metadata = {
   title: 'Kamity | Portfólio',
@@ -18,13 +19,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR" className="[color-scheme:dark]">
+    <html lang="pt-BR" className="dark">
       <Tags />
       <body
         className={`${font.variable} ${font.className} w-full h-full relative`}
       >
         <Header />
         <Main>{children}</Main>
+        <MenuOverlay />
       </body>
     </html>
   )

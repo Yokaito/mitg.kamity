@@ -9,7 +9,6 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     '@next/next/no-html-link-for-pages': 'off',
-    'react/jsx-key': 'off',
     'no-console': 'warn',
     '@typescript-eslint/no-var-requires': 'off',
   },

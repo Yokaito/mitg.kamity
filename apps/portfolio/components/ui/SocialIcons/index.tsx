@@ -17,14 +17,20 @@ const CustomSocial = ({ nameIcon, href }: CustomSocialProps) => {
       onMouseEnter={() => setWeight('fill')}
       onMouseLeave={() => setWeight('regular')}
     >
-      <Icon name={nameIcon} weight={weight} width={28} height={28} />
+      <Icon
+        className="text-white"
+        name={nameIcon}
+        weight={weight}
+        width={28}
+        height={28}
+      />
     </a>
   )
 }
 
 export const SocialIcons = () => {
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center justify-center gap-3">
       <CustomSocial
         nameIcon="LinkedinLogo"
         href="https://www.linkedin.com/in/guilherme-fontes-amorim/"
